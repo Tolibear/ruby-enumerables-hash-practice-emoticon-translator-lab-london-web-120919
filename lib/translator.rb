@@ -9,7 +9,6 @@ def load_library(file_name)
     # binding.pry
       emoticons_hash[:get_meaning] = {"#{values[1]}" => "#{key}"}
       emoticons_hash[:get_emoticon] = {"#{values[0]}" => "#{values[1]}"}
-    end
   end
   emoticons_hash
 end
