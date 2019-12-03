@@ -17,7 +17,7 @@ end
 
 def get_japanese_emoticon(file_name, emoticon)
   translator = load_library(file_name)
-binding.pry
+# binding.pry
   translator[:get_emoticon].select { |i| i== emoticon }
 end
 
