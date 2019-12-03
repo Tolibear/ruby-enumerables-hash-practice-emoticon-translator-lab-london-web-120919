@@ -15,7 +15,7 @@ def load_library(file_name)
   #   # emoticons_hash[:get_emoticon] = {}
   #     # end
   #   # end
-  end
+  # end
 end
 
 def get_japanese_emoticon
