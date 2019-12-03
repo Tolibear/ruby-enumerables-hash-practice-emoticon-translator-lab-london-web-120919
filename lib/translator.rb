@@ -15,7 +15,7 @@ end
 
 # binding.pry
 
-def get_japanese_emoticon
+def get_japanese_emoticon(file_name, emoticon)
   # code goes here
 end
 
