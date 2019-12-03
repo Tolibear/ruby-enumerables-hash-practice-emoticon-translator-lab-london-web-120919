@@ -13,10 +13,11 @@ def load_library(file_name)
   emoticons_hash
 end
 
-# binding.pry
+binding.pry
 
 def get_japanese_emoticon(file_name, emoticon)
   translator = load_library(file_name)
+
   if translator[:get_emoticon].include?(emoticon)
     return [translator][:get_emoticon][emoticon]
   end
