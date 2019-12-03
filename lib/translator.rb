@@ -6,12 +6,12 @@ def load_library(file_name)
   emoticons_hash = {:get_meaning => {}, :get_emoticon => {}}
   emoticons_file.each do |key, values|
     values.each do |english, japanese|
-      japanese.each do |img_japanese|
+
   #       japanese_emc = img_japanese.to_sym
   #       emoticons_hash[:get_meaning] = { japanese_emc => key }
 
       print key
-      end
+
     end
   end
   emoticons_hash
