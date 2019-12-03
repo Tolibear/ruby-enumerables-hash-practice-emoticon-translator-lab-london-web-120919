@@ -1,6 +1,11 @@
 require "yaml"
 
 def load_library(file_name)
+  emoticons_file = :YAML.load_file(file_name)
+
+end
+
+# def load_library(file_name)
   emoticons_array = :YAML.load_file(file_name)
 
   # emoticons_hash = {:get_meaning => {}, :get_emoticon => {}}
@@ -24,4 +29,5 @@ end
 
 def get_english_meaning
   # code goes here
+
 end
