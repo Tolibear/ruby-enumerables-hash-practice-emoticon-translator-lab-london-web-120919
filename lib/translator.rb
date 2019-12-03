@@ -11,7 +11,7 @@ def load_library(file_name)
   #       emoticons_hash[:get_meaning] = { japanese_emc => key }
   #     end
   #   end
-  end
+  # end
   emoticons_hash
 end
 
