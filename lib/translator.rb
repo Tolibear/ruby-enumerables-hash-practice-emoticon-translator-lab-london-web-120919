@@ -18,9 +18,7 @@ end
 def get_japanese_emoticon(file_name, emoticon)
   translator = load_library(file_name)
 binding.pry
-  if translator[:get_emoticon].include?(emoticon)
-    return [translator][:get_emoticon][emoticon]
-  end
+  translator[:get_emoticon][emoticon].select
 end
 
 def get_english_meaning
