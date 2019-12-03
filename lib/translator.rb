@@ -18,7 +18,8 @@ end
 def get_japanese_emoticon(file_name, emoticon)
   translator = load_library(file_name)
 # binding.pry
-  translator[:get_emoticon].select { |key, value| key == emoticon }
+  translator[:get_emoticon].each do |key, value|
+    return value if key == emoticon
 end
 
 def get_english_meaning
